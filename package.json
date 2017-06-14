@@ -1,0 +1,22 @@
+{
+  "name": "briggo",
+  "version": "1.0.0",
+  "description": "Test Framework for Briggo Mobile app and Web application.",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha -R good-mocha-html-reporter helpers/test_automation/**/*_test.js || true",
+    "test_app": "mocha -R good-mocha-html-reporter helpers/test_automation/**/*_test.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "*",
+    "chai-as-promised": "*",
+    "colors": "*",
+    "good-mocha-html-reporter": "^2.0.1",
+    "mocha": "*",
+    "q": "*",
+    "selenium-webdriver": "^3.4.0",
+    "underscore": "*",
+    "wd": "*"
+  }
+}

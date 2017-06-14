@@ -1,0 +1,1 @@
+exports.myTestApp = "/home/shirish/Projects/Briggo_Demo/Demo_app/app/Briggo_v1.5.23.apk";
